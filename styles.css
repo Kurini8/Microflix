@@ -1,0 +1,55 @@
+body {
+color:snow;
+background:crimson;
+margin: 0px;
+font-family: "Teko", sans-serif;
+
+}
+
+header{
+    border-bottom: solid 2px rgb(255 235 205);
+    padding: 20px;
+    font-size: 58px;
+    color: rgb(15, 14, 14); 
+}
+
+section {
+    background:rgb(3, 33, 85);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display:flow;
+
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 28px;
+}
+
+p{
+    font-size:20px;
+}
+
+img{
+    height: 190px;
+}
+
+.chamada-texto{
+    Display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0,5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1,0;
+    border: 1px solid green;
+}
+
